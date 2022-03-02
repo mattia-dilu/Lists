@@ -8,7 +8,7 @@ struct cell {
 };
 
 typedef cell* CircularList_Sentinel;
-cell* const emptyList = 0;
+cell* const emptyList = nullptr;
 
 //prototypes functions
 void create_empty(CircularList_Sentinel& l);
