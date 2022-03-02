@@ -41,7 +41,7 @@ int main(){
 	return 0;
 }
 
-//function definition
+//functions definitions
 void head_insert(List& l, DataType elem){
 	cell* aux  = new cell;
 	aux->info = elem;
