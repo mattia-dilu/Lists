@@ -11,7 +11,7 @@ typedef cell* List;
 
 cell* const emptyList = nullptr;
 
-//function prototypes
+//functions prototypes
 void head_insert(List& l, DataType elem);
 void delete_head(List& l);
 void print_List(const List l);
