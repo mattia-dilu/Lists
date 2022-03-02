@@ -8,7 +8,7 @@ struct cell {
 };
 
 typedef cell* CircularList;
-cell* const emptyList = 0;
+cell* const emptyList = nullptr;
 
 //functions prototypes
 void head_insert(CircularList& l, DataType elem);
