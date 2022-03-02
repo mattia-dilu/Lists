@@ -68,7 +68,7 @@ void insert_order(List& l, DataType elem){
 	cell* aux = new cell;
 	aux->info = elem;
 	aux->next = nullptr;
-	if(l == NULL || l->info > elem){
+	if(l == nullptr || l->info > elem){
 		aux->next = l;
 		l = aux;
 	}else{
