@@ -21,7 +21,7 @@ bool is_in(const List l, DataType elem);
 int main(){
 	DataType value;
 	List my_list = emptyList;
-	//add 4 values on head
+	//add 4 values at head
 	for(int i = 0; i < 4; ++i){
 		std::cout<<"Insert a value ["<<i<<"]: ";
 		std::cin>>value;
